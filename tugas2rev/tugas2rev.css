@@ -1,0 +1,76 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #5860A6;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  background-color: white;
+  margin-top: 120px;
+  width: 976px;
+  height: 517px;
+  margin-left: 240px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.form {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.form input {
+  width: 380px;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.form button {
+  margin-top: 40px;
+  width: 388px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #5860A6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.gambar img {
+  width: 488px;
+  height: 517px;
+  border-radius: 0px 20px 20px 0px;
+  margin-left: 14px;
+}
+
+.form button:hover {
+  background-color: bisque;
+  color: black;
+  border: none;
+  transition: 0.2s;
+}
+
+.gambar img:hover {
+  transform: scale(120%);
+  transition: 0.2s;
+}
+
+/* For mobile phones: */
+@media (max-width: 1050px) {
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  .gambar {
+    display: none;
+  }
+  .form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+}/*# sourceMappingURL=tugas2rev.css.map */
