@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    // outline: red 1px solid;
+    font-family: 'Franklin Gothic Small', 'Arial Narrow', Arial, sans-serif;
+    // box-sizing: border-box;
+}
+html, body{
+    background-color: #5860A6;
+}
+.container{
+    display: flex;
+    width: 976px;
+    height: 517px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    
+}
+
+.form{
+    background-color: white;
+    width: 488px;
+    height: 517px;
+    padding: 50px;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-sizing: border-box;
+     .form, input{
+        width: 380px;
+        border-radius: 5px;
+        height: 25px; 
+    }
+}
+.form, input, label{
+    margin-bottom: 20px;
+}
+.username, label{
+    margin-bottom: 10px;
+    margin-top: 50px;
+} 
+.password, label{
+    margin-bottom: 10px;
+}   
+
+.form button{
+    margin-top: 40px;
+    width: 388px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #5860A6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.gambar img{
+    width: 488px;
+    height: 517px;
+    
+}
+.background{
+    width: 488px;
+    height: 517px; 
+    background-image: url(background1.png);
+    border-radius: 0px 20px 20px 0px;
+    background-position: 100%;
+    background-size: cover;
+}
+
+.form button:hover{
+    background-color: bisque;
+    color: black;
+    border: none;
+    transition: .2s;
+}
+
+.gambar img:hover{
+    transform: scale(120%);
+    transition: .2s;
+}
+
+// buat ngatur screen ukuran layar cari di w2school terus pilih "RWD Media Queries"
+/* For mobile phones: */
+// [class*="col-"] {
+//     width: 100%;
+//   }
+  
+//   @media only screen and (min-width: 600px) {
+//     /* For tablets: */
+//     .col-s-1 {width: 8.33%;}
+//     .col-s-2 {width: 16.66%;}
+//     .col-s-3 {width: 25%;}
+//     .col-s-4 {width: 33.33%;}
+//     .col-s-5 {width: 41.66%;}
+//     .col-s-6 {width: 50%;}
+//     .col-s-7 {width: 58.33%;}
+//     .col-s-8 {width: 66.66%;}
+//     .col-s-9 {width: 75%;}
+//     .col-s-10 {width: 83.33%;}
+//     .col-s-11 {width: 91.66%;}
+//     .col-s-12 {width: 100%;}
+//   }
+  
+//   @media only screen and (min-width: 768px) {
+//     /* For desktop: */
+//     .col-1 {width: 8.33%;}
+//     .col-2 {width: 16.66%;}
+//     .col-3 {width: 25%;}
+//     .col-4 {width: 33.33%;}
+//     .col-5 {width: 41.66%;}
+//     .col-6 {width: 50%;}
+//     .col-7 {width: 58.33%;}
+//     .col-8 {width: 66.66%;}
+//     .col-9 {width: 75%;}
+//     .col-10 {width: 83.33%;}
+//     .col-11 {width: 91.66%;}
+//     .col-12 {width: 100%;}
+//   }
+
+// overflow x dan y supaa ga ngecsroll
+
+@media(max-width: 1050px){
+    .container{
+    width: 100%;
+    margin: auto;
+    }
+    .gambar{
+        display: none;
+    }
+    .form{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+@media(max-width: 992px){
+    .container{
+    width: 100%;
+    margin: auto;
+    }
+    .gambar{
+        display: none;
+    }
+    .form{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
